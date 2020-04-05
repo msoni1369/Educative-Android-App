@@ -1,0 +1,145 @@
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:fillViewport="true"
+        >
+
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="1000dp"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@drawable/kamal">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView1"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="21dp"
+        android:text="A hackers is an individual who uses computer,networking or other skills to overcome a technical problem.The term hacker may refer to anyonewith  technical skills,but it often refer to a person who uses his or her abilities to gain unauthorized access to systems or networks in order to commit crimes .A hacker may ,for example,steal information to hurt people via identity theft,damage or bring down systems and,often,hold those systems hostage  to collect ransome. "
+        android:textSize="20dp" 
+        android:textColor="#FFFFFF"
+        />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="29dp"
+        android:text="Types Of Hackers"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="30dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView3"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="23dp"
+        android:text="Script Kiddle >" 
+        android:onClick="SCRIPTKIDDLE"
+         android:textColor="#FFFFFF"
+        android:textStyle="bold"
+         android:background="#000000"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button1"
+        android:layout_below="@+id/button1"
+        android:layout_marginTop="14dp"
+        android:text="White Hat >"
+        android:onClick="WHITEHAT" 
+         android:textColor="#FFFFFF"
+        android:textStyle="bold"
+         android:background="#000000"/>
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button2"
+        android:layout_below="@+id/button2"
+        android:layout_marginTop="16dp"
+        android:text="Black Hat >"
+        android:onClick="BLACKHAT" 
+         android:textColor="#FFFFFF"
+        android:textStyle="bold"
+         android:background="#000000" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button3"
+        android:layout_below="@+id/button3"
+        android:layout_marginTop="18dp"
+        android:text="Gray Hat >" 
+        android:onClick="GRAYHAT"
+         android:textColor="#FFFFFF"
+        android:textStyle="bold"
+         android:background="#000000" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button4"
+        android:layout_below="@+id/button4"
+        android:layout_marginTop="18dp"
+        android:text="Green Hat >"
+        android:onClick="GREENHAT" 
+         android:textColor="#FFFFFF"
+        android:textStyle="bold"
+         android:background="#000000"/>
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button5"
+        android:layout_below="@+id/button5"
+        android:layout_marginTop="16dp"
+        android:text="Red Hat >" 
+         android:onClick="REDHAT"
+          android:textColor="#FFFFFF"
+        android:textStyle="bold"
+         android:background="#000000"/>
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/button6"
+        android:layout_below="@+id/button6"
+        android:layout_marginTop="16dp"
+        android:text="Blue hat >"
+         android:onClick="BLUEHAT"
+          android:textColor="#FFFFFF"
+        android:textStyle="bold"
+         android:background="#000000" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:text="Hackers and its types"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:textColor="#FFFFFF"
+        android:textSize="30dp" />
+
+</RelativeLayout>
+ </ScrollView>

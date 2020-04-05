@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="example.newproject"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Hacking"
+            android:label="@string/title_activity_hacking" >
+        </activity>
+        <activity
+            android:name=".HackingTypes"
+            android:label="@string/title_activity_hacking_types" >
+        </activity>
+        <activity
+            android:name=".Hackers"
+            android:label="@string/title_activity_hakers" >
+        </activity>
+        <activity
+            android:name=".HackerTools"
+            android:label="@string/title_activity_haker_tools" >
+        </activity>
+        <activity
+            android:name=".HackersOS"
+            android:label="@string/title_activity_hackers_os" >
+        </activity>
+        <activity
+            android:name=".SCRIPTKIDDLE"
+            android:label="@string/title_activity_scriptkiddle" >
+        </activity>
+        <activity
+            android:name=".WHITEHAT"
+            android:label="@string/title_activity_whitehat" >
+        </activity>
+        <activity
+            android:name=".BLACKHAT"
+            android:label="@string/title_activity_blackhat" >
+        </activity>
+        <activity
+            android:name=".GRAYHAT"
+            android:label="@string/title_activity_grayhat" >
+        </activity>
+        <activity
+            android:name=".GREENHAT"
+            android:label="@string/title_activity_greenhat" >
+        </activity>
+        <activity
+            android:name=".REDHAT"
+            android:label="@string/title_activity_redhat" >
+        </activity>
+        <activity
+            android:name=".BLUEHAT"
+            android:label="@string/title_activity_bluehat" >
+        </activity>
+        <activity
+            android:name=".BACKTRACK"
+            android:label="@string/title_activity_backtrack" >
+        </activity>
+        <activity
+            android:name=".KALILINUX"
+            android:label="@string/title_activity_kalilinux" >
+        </activity>
+        <activity
+            android:name=".SELINUX"
+            android:label="@string/title_activity_selinux" >
+        </activity>
+        <activity
+            android:name=".KNOPPIX"
+            android:label="@string/title_activity_knoppix" >
+        </activity>
+        <activity
+            android:name=".BACKBOBLINUX"
+            android:label="@string/title_activity_backboblinux" >
+        </activity>
+        <activity
+            android:name=".PASSWORDCRACKER"
+            android:label="@string/title_activity_passwordcracker" >
+        </activity>
+        <activity
+            android:name=".WIRELESSHACKING"
+            android:label="@string/title_activity_wirelesshacking" >
+        </activity>
+        <activity
+            android:name=".FIREWALLWEAK"
+            android:label="@string/title_activity_firewallweak" >
+        </activity>
+        <activity
+            android:name=".NETWORKSCAN"
+            android:label="@string/title_activity_networkscan" >
+        </activity>
+        <activity
+            android:name=".ROOTKITDETECT"
+            android:label="@string/title_activity_rootkitdetect" >
+        </activity>
+        <activity
+            android:name=".DEBUGGERS"
+            android:label="@string/title_activity_debuggers" >
+        </activity>
+        <activity
+            android:name=".ENCRPYTION"
+            android:label="@string/title_activity_encrpytion" >
+        </activity>
+        <activity
+            android:name=".VULNERABILITYSCAN"
+            android:label="@string/title_activity_vulnerabilityscan" >
+        </activity>
+        <activity
+            android:name=".WEBSITEHACKING"
+            android:label="@string/title_activity_websitehacking" >
+        </activity>
+        <activity
+            android:name=".NETWORKHACKING"
+            android:label="@string/title_activity_networkhacking" >
+        </activity>
+        <activity
+            android:name=".ETHICALHACKING"
+            android:label="@string/title_activity_ethicalhacking" >
+        </activity>
+        <activity
+            android:name=".PASSWORDHACKING"
+            android:label="@string/title_activity_passwordhacking" >
+        </activity>
+        <activity
+            android:name=".ONLINEBANKINGHACKING"
+            android:label="@string/title_activity_onlinebankinghacking" >
+        </activity>
+        <activity
+            android:name=".COMPUTERHACKING"
+            android:label="@string/title_activity_computerhacking" >
+        </activity>
+        <activity
+            android:name=".Feedback"
+            android:label="@string/title_activity_feedback" >
+        </activity>
+        <activity
+            android:name=".Message"
+            android:label="@string/title_activity_message" >
+        </activity>
+        <activity
+            android:name=".HackingApps"
+            android:label="@string/title_activity_hacking_apps" >
+        </activity>
+        <activity
+            android:name=".UsefulHacks"
+            android:label="@string/title_activity_useful_hacks" >
+        </activity>
+        <activity
+            android:name=".TopHackers"
+            android:label="@string/title_activity_top_hackers" >
+        </activity>
+        <activity
+            android:name=".AboutUs"
+            android:label="@string/title_activity_about_us" >
+        </activity>
+        <activity
+            android:name=".Developer"
+            android:label="@string/title_activity_developer" >
+        </activity>
+    </application>
+
+</manifest>
